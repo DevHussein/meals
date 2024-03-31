@@ -1,0 +1,60 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Android",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "emulator-5554"
+    },
+    {
+      "name": "Android Wifi",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "adb-AWCXUT3A10004539-hJdY5n._adb-tls-connect._tcp."
+    },
+    {
+      "name": "iPhone15",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "278C94EC-EC15-4372-88D8-A298D3EEDD86"
+    },
+    {
+      "name": "iPhone15 Wifi",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "00008120-000130C20EEB401E"
+    },
+    {
+      "name": "Chrome",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "chrome"
+    },
+    {
+      "name": "MacOS",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "macos"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "All Devices",
+      "configurations": ["Android", "iPhone15", "Chrome", "MacOS"]
+    },
+    {
+      "name": "Mobile Apps",
+      "configurations": ["Android", "iPhone15", "Android Wifi", "iPhone15 Wifi"]
+    }
+  ]
+}
