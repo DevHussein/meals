@@ -53,8 +53,12 @@
       "configurations": ["Android", "iPhone15", "Chrome", "MacOS"]
     },
     {
-      "name": "Mobile Apps",
+      "name": "Mobile Apps with Wifi",
       "configurations": ["Android", "iPhone15", "Android Wifi", "iPhone15 Wifi"]
+    },
+    {
+      "name": "Mobile Apps without Wifi",
+      "configurations": ["Android", "iPhone15"]
     }
   ]
 }
